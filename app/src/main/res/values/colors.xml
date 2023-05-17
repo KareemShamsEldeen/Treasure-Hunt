@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button">#007674</color>
+
+    <color name="mainYellow">#FFFFF7AE</color>
+    <color name="secYellow">#FFFFFBD3</color>
+    <color name="mainTeal">#FF007674</color>
+    <color name="mainTeal_darker">#ff005251</color>
+    <color name="mainTeal_light">#ff33918F</color>
+    <color name="semi_trans_grey">#ED777777</color>
+    <color name="light_grey">#505050</color>
+    <color name="grey">#303030</color>
+    <color name="dark_grey">#222222</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    ->Dark Theme Main Colors
+    <color name="darkWhite">#F1F1F1</color>
+    <color name="mint_teal">#20BEBB</color>
+    <color name="semi_trans_mainTeal_darker">#CB005251</color>
+    <color name="light_black">#141414</color>
+    <color name="veryLight_grey">#AFAFAF</color>
+
+</resources>

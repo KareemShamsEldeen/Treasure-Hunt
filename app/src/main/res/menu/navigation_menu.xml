@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:id="@+id/navigation_view">
+
+    <item
+        android:id="@+id/nav_theme_mode"
+        android:checked="false"
+        android:icon="@drawable/baseline_color_lens_24"
+        android:title="Dark Theme"/>
+    <item
+        android:id="@+id/nav_Languages"
+        android:checked="false"
+        android:icon="@drawable/baseline_language_24"
+        android:title="@string/menu_Languages" />
+    <item
+        android:id="@+id/nav_LogOut"
+        android:checked="false"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="@string/menu_LogOut" />
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_Previous_bills"
+                android:checked="false"
+                android:icon="@drawable/baseline_text_snippet_24"
+                android:title="@string/Previous_bills" />
+            <item
+                android:id="@+id/nav_Help_and_support"
+                android:checked="false"
+                android:icon="@drawable/baseline_help_24"
+                android:title="@string/menu_Help_and_Support" />
+            <item
+                android:id="@+id/nav_About_Us"
+                android:checked="false"
+                android:icon="@drawable/baseline_info_24"
+                android:title="@string/menu_About_Us" />
+        </menu>
+    </item>
+</menu>

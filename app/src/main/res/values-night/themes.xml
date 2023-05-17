@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TreasureHunt" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/mint_teal</item>
+        <item name="colorPrimaryVariant">@color/mainTeal_light</item>
+        <item name="colorOnPrimary">@color/light_black</item>
+        <item name="colorSecondary">@color/mainTeal_light</item>
+        <item name="colorSecondaryVariant">@color/mainTeal_light</item>
+        <item name="colorOnSecondary">@color/light_black</item>
+        <item name="colorTertiary">@color/light_black</item>
+        <item name="colorOnTertiary">@color/darkWhite</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorSurface">@color/mint_teal</item>
+        <item name="colorSurfaceVariant">@color/mainTeal_light</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/darkWhite</item>
+        <item name="fontFamily">@font/dm_sans</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textColorHint">@color/semi_trans_grey</item>
+        <item name="android:textColor">@color/darkWhite</item>
+
+        <item name="android:statusBarColor">@color/mainTeal_light</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.App.DatePicker</item>
+    </style>
+
+
+    <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">40dp</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="colorPrimary">@color/mint_teal</item>
+    </style>
+
+    <style name="AppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">40dp</item>
+    </style>
+
+
+    <style name="ThemeOverlay.App.DatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!--Calender Background color -->
+        <item name="android:windowBackground">@color/light_black</item>
+        <!-- Week TextColor-->
+        <item name="android:textColorSecondary">@color/mainTeal_light</item>
+        <!--selected Item color-->
+        <item name="colorControlActivated">@color/secYellow</item>
+        <!-- Calender Number color arrow color (< >) -->
+        <item name="android:textColorPrimary">@color/mint_teal</item>
+        <!--day , month-->
+        <item name="android:textColorPrimaryInverse">@color/mainTeal_light</item>
+        <!-- year-->
+        <item name="android:textColorSecondaryInverse">@color/mint_teal</item>
+        <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+    </style>
+
+    <!-- Alert Dialog Theme -->
+    <style name="AlertDialogCustom" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/mint_teal</item>
+        <item name="android:textColorSecondary">@color/mint_teal</item>
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <style name="Theme.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="colorSurface">@color/mint_teal</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <color name="background">@color/light_black</color>
+    <style name="Theme.TreasureHunt" parent="Base.Theme.TreasureHunt" />
+</resources>

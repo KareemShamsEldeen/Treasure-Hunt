@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Treasure Hunt</string>
+    <string name="touch">touch</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="menu_Languages">Languages</string>
+    <string name="menu_Blogs">Blogs</string>
+    <string name="menu_About_Us">About Us</string>
+    <string name="menu_Help_and_Support">Help and Support</string>
+    <string name="menu_LogOut">Log Out</string>
+
+    <array name="simple_items">
+        <item name="Furniture ">Furniture</item>
+        <item name="Chairs">Chairs</item>
+        <item name="Vase">Vase</item>
+        <item name="Carpets">Carpets</item>
+        <item name="Others">Others</item>
+        <item name="Portrait">Portrait</item>
+    </array>
+
+    //activity
+    <string name="intro_description">Monaliza painting</string>
+    //wall1
+    <string name="next_button_text">Next</string>
+    <string name="monaliza_description">Monaliza painting</string>
+    <string name="image_view_description">Provide Image</string>
+    //wall2
+    <string name="clock_image_description">Clock icon representing time</string>
+    <string name="button_next">Next</string>
+    //wall3
+    <string name="cup_image_description">Cup Image</string>
+    <string name="wal3button_next">Get Started</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date">Date</string>
+    <string name="gender">Gender</string>
+    <string name="select_date">Select Date</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="address">Address</string>
+    <string name="street">Street</string>
+    <string name="e_mail">E-mail</string>
+    <string name="gmail_com">gmail.com</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_201xxxxxxxx">+201XXXXXXXX</string>
+    <string name="update">Update</string>
+    <string name="xxxxx">XXXXX</string>
+    <string name="cancel">Cancel</string>
+    <string name="Previous_bills">Previous Bills</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
